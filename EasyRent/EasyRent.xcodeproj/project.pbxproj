@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D22E7E272C9B481B00D71FBB /* ItemRentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22E7E262C9B481B00D71FBB /* ItemRentView.swift */; };
+		D239E5892CC9A4760059FBFF /* Ext + Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D239E5882CC9A4760059FBFF /* Ext + Image.swift */; };
+		D23C63792CCD9F2E0082985F /* EasyRentError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23C63782CCD9F2E0082985F /* EasyRentError.swift */; };
+		D24544E02C9F5EB900A88DC4 /* RentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24544DF2C9F5EB900A88DC4 /* RentManager.swift */; };
+		D24544E32C9F647900A88DC4 /* RentsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24544E22C9F647900A88DC4 /* RentsListView.swift */; };
+		D24544E52C9F655400A88DC4 /* RentsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24544E42C9F655400A88DC4 /* RentsListViewModel.swift */; };
+		D263EA602C960B92007894EE /* EasyRentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D263EA5F2C960B92007894EE /* EasyRentApp.swift */; };
+		D263EA642C960B94007894EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D263EA632C960B94007894EE /* Assets.xcassets */; };
+		D263EA672C960B94007894EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D263EA662C960B94007894EE /* Preview Assets.xcassets */; };
+		D263EA6E2C960BF8007894EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D263EA6D2C960BF8007894EE /* GoogleService-Info.plist */; };
+		D263EA8A2C960E2F007894EE /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D263EA892C960E2F007894EE /* FirebaseAnalytics */; };
+		D263EA8C2C960E2F007894EE /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = D263EA8B2C960E2F007894EE /* FirebaseAnalyticsOnDeviceConversion */; };
+		D263EA8E2C960E2F007894EE /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = D263EA8D2C960E2F007894EE /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		D263EA902C960E2F007894EE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D263EA8F2C960E2F007894EE /* FirebaseAuth */; };
+		D263EA922C960E2F007894EE /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = D263EA912C960E2F007894EE /* FirebaseCrashlytics */; };
+		D263EA942C960E2F007894EE /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = D263EA932C960E2F007894EE /* FirebaseDatabase */; };
+		D263EA962C960E2F007894EE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D263EA952C960E2F007894EE /* FirebaseFirestore */; };
+		D263EA982C960E2F007894EE /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D263EA972C960E2F007894EE /* FirebaseStorage */; };
+		D263EA9A2C962FD1007894EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D263EA992C962FD1007894EE /* AppDelegate.swift */; };
+		D263EA9D2C96306B007894EE /* AuthentificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D263EA9C2C96306B007894EE /* AuthentificationView.swift */; };
+		D263EA9F2C963272007894EE /* SignInWithEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D263EA9E2C963272007894EE /* SignInWithEmailView.swift */; };
+		D263EAA12C963287007894EE /* SignInWithEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D263EAA02C963287007894EE /* SignInWithEmailViewModel.swift */; };
+		D263EAA32C963565007894EE /* AuthentificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D263EAA22C963565007894EE /* AuthentificationManager.swift */; };
+		D263EAA52C963AB6007894EE /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D263EAA42C963AB6007894EE /* RootView.swift */; };
+		D263EAA82C963D63007894EE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D263EAA72C963D63007894EE /* SettingsView.swift */; };
+		D263EAAA2C963DB6007894EE /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D263EAA92C963DB6007894EE /* SettingsViewModel.swift */; };
+		D26CD6AD2CA019CF00520458 /* RentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26CD6AC2CA019CF00520458 /* RentRow.swift */; };
+		D26CD6B02CA0669600520458 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D26CD6AE2CA0669600520458 /* Localizable.strings */; };
+		D26CD6B32CA08D9400520458 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26CD6B22CA08D9400520458 /* EditItemView.swift */; };
+		D27FF5112CCBD81E001FEB4F /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FF5102CCBD81E001FEB4F /* UserListView.swift */; };
+		D27FF5132CCBD861001FEB4F /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FF5122CCBD861001FEB4F /* UsersViewModel.swift */; };
+		D27FF5152CCBE744001FEB4F /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FF5142CCBE744001FEB4F /* Storage.swift */; };
+		D27FF5182CCC1E64001FEB4F /* EasyRentMLModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D27FF5172CCC1E64001FEB4F /* EasyRentMLModel.mlmodel */; };
+		D27FF51A2CCC259A001FEB4F /* Ext + UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FF5192CCC259A001FEB4F /* Ext + UIImage.swift */; };
+		D28666BE2C99B57600E70829 /* AddItemFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28666BD2C99B57600E70829 /* AddItemFormView.swift */; };
+		D28666C02C99DAE600E70829 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28666BF2C99DAE600E70829 /* ItemDetailView.swift */; };
+		D28666C42C9A127000E70829 /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28666C32C9A127000E70829 /* ItemManager.swift */; };
+		D2872F212C96CE4100A33D29 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2872F202C96CE4100A33D29 /* ProfileView.swift */; };
+		D2872F242C96D22100A33D29 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2872F232C96D22100A33D29 /* UserManager.swift */; };
+		D2872F272C96DF5000A33D29 /* SignUpWithEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2872F262C96DF5000A33D29 /* SignUpWithEmailView.swift */; };
+		D2872F292C96DFDE00A33D29 /* SignUpWithEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2872F282C96DFDE00A33D29 /* SignUpWithEmailViewModel.swift */; };
+		D2872F2B2C97263D00A33D29 /* ItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2872F2A2C97263D00A33D29 /* ItemsListView.swift */; };
+		D2872F2E2C9726C300A33D29 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2872F2D2C9726C300A33D29 /* ItemModel.swift */; };
+		D2872F302C972D0D00A33D29 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2872F2F2C972D0D00A33D29 /* ItemRow.swift */; };
+		D294EB3D2C98CD6C00A7A160 /* ItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294EB3C2C98CD6C00A7A160 /* ItemsViewModel.swift */; };
+		D2ADDE422CCE7E9D001FA2ED /* ItemCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADDE412CCE7E9D001FA2ED /* ItemCategory.swift */; };
+		D2ADDE442CCE7EAB001FA2ED /* SortedStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADDE432CCE7EAB001FA2ED /* SortedStyle.swift */; };
+		D2ADDE462CCE9EEB001FA2ED /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADDE452CCE9EEB001FA2ED /* UserModel.swift */; };
+		D2ADDE482CCE9EF6001FA2ED /* RentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADDE472CCE9EF6001FA2ED /* RentModel.swift */; };
+		D2ADDE4A2CCEB14C001FA2ED /* AuthDataResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADDE492CCEB14C001FA2ED /* AuthDataResultModel.swift */; };
+		D2CBB8912C9E28A900F2E7E1 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CBB8902C9E28A900F2E7E1 /* ProfileViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D22E7E262C9B481B00D71FBB /* ItemRentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRentView.swift; sourceTree = "<group>"; };
+		D239E5882CC9A4760059FBFF /* Ext + Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext + Image.swift"; sourceTree = "<group>"; };
+		D23C63782CCD9F2E0082985F /* EasyRentError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyRentError.swift; sourceTree = "<group>"; };
+		D24544DF2C9F5EB900A88DC4 /* RentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentManager.swift; sourceTree = "<group>"; };
+		D24544E22C9F647900A88DC4 /* RentsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentsListView.swift; sourceTree = "<group>"; };
+		D24544E42C9F655400A88DC4 /* RentsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentsListViewModel.swift; sourceTree = "<group>"; };
+		D263EA5C2C960B92007894EE /* EasyRent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyRent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D263EA5F2C960B92007894EE /* EasyRentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyRentApp.swift; sourceTree = "<group>"; };
+		D263EA632C960B94007894EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D263EA662C960B94007894EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D263EA6D2C960BF8007894EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D263EA992C962FD1007894EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D263EA9C2C96306B007894EE /* AuthentificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationView.swift; sourceTree = "<group>"; };
+		D263EA9E2C963272007894EE /* SignInWithEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithEmailView.swift; sourceTree = "<group>"; };
+		D263EAA02C963287007894EE /* SignInWithEmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithEmailViewModel.swift; sourceTree = "<group>"; };
+		D263EAA22C963565007894EE /* AuthentificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationManager.swift; sourceTree = "<group>"; };
+		D263EAA42C963AB6007894EE /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		D263EAA72C963D63007894EE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D263EAA92C963DB6007894EE /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		D26CD6AC2CA019CF00520458 /* RentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentRow.swift; sourceTree = "<group>"; };
+		D26CD6AF2CA0669600520458 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D26CD6B12CA066E500520458 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D26CD6B22CA08D9400520458 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		D27FF5102CCBD81E001FEB4F /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		D27FF5122CCBD861001FEB4F /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		D27FF5142CCBE744001FEB4F /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		D27FF5172CCC1E64001FEB4F /* EasyRentMLModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = EasyRentMLModel.mlmodel; sourceTree = "<group>"; };
+		D27FF5192CCC259A001FEB4F /* Ext + UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext + UIImage.swift"; sourceTree = "<group>"; };
+		D28666BD2C99B57600E70829 /* AddItemFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemFormView.swift; sourceTree = "<group>"; };
+		D28666BF2C99DAE600E70829 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		D28666C32C9A127000E70829 /* ItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
+		D2872F202C96CE4100A33D29 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D2872F232C96D22100A33D29 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		D2872F262C96DF5000A33D29 /* SignUpWithEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpWithEmailView.swift; sourceTree = "<group>"; };
+		D2872F282C96DFDE00A33D29 /* SignUpWithEmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpWithEmailViewModel.swift; sourceTree = "<group>"; };
+		D2872F2A2C97263D00A33D29 /* ItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListView.swift; sourceTree = "<group>"; };
+		D2872F2D2C9726C300A33D29 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		D2872F2F2C972D0D00A33D29 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		D294EB3C2C98CD6C00A7A160 /* ItemsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewModel.swift; sourceTree = "<group>"; };
+		D2ADDE412CCE7E9D001FA2ED /* ItemCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCategory.swift; sourceTree = "<group>"; };
+		D2ADDE432CCE7EAB001FA2ED /* SortedStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedStyle.swift; sourceTree = "<group>"; };
+		D2ADDE452CCE9EEB001FA2ED /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		D2ADDE472CCE9EF6001FA2ED /* RentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentModel.swift; sourceTree = "<group>"; };
+		D2ADDE492CCEB14C001FA2ED /* AuthDataResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDataResultModel.swift; sourceTree = "<group>"; };
+		D2CBB8902C9E28A900F2E7E1 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D263EA592C960B92007894EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D263EA942C960E2F007894EE /* FirebaseDatabase in Frameworks */,
+				D263EA8A2C960E2F007894EE /* FirebaseAnalytics in Frameworks */,
+				D263EA8E2C960E2F007894EE /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				D263EA922C960E2F007894EE /* FirebaseCrashlytics in Frameworks */,
+				D263EA8C2C960E2F007894EE /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				D263EA982C960E2F007894EE /* FirebaseStorage in Frameworks */,
+				D263EA902C960E2F007894EE /* FirebaseAuth in Frameworks */,
+				D263EA962C960E2F007894EE /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D239E5872CC9A4550059FBFF /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				D239E5882CC9A4760059FBFF /* Ext + Image.swift */,
+				D27FF5192CCC259A001FEB4F /* Ext + UIImage.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		D23C63762CCD9F080082985F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D23C63772CCD9F100082985F /* Enums */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D23C63772CCD9F100082985F /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				D23C63782CCD9F2E0082985F /* EasyRentError.swift */,
+				D2ADDE412CCE7E9D001FA2ED /* ItemCategory.swift */,
+				D2ADDE432CCE7EAB001FA2ED /* SortedStyle.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		D24544E12C9F642F00A88DC4 /* Rents */ = {
+			isa = PBXGroup;
+			children = (
+				D24544E22C9F647900A88DC4 /* RentsListView.swift */,
+				D26CD6AC2CA019CF00520458 /* RentRow.swift */,
+			);
+			path = Rents;
+			sourceTree = "<group>";
+		};
+		D263EA532C960B92007894EE = {
+			isa = PBXGroup;
+			children = (
+				D263EA5E2C960B92007894EE /* EasyRent */,
+				D263EA5D2C960B92007894EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D263EA5D2C960B92007894EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D263EA5C2C960B92007894EE /* EasyRent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D263EA5E2C960B92007894EE /* EasyRent */ = {
+			isa = PBXGroup;
+			children = (
+				D23C63762CCD9F080082985F /* Common */,
+				D27FF5162CCC1E4E001FEB4F /* MachineLearningModel */,
+				D263EAAB2C964255007894EE /* App */,
+				D2872F222C96D1FB00A33D29 /* Firestore */,
+				D263EAAD2C964423007894EE /* Managers */,
+				D263EAAE2C964448007894EE /* SupportFiles */,
+				D263EA652C960B94007894EE /* Preview Content */,
+				D239E5872CC9A4550059FBFF /* Extenstions */,
+			);
+			path = EasyRent;
+			sourceTree = "<group>";
+		};
+		D263EA652C960B94007894EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D263EA662C960B94007894EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D263EA9B2C96304E007894EE /* Authentification */ = {
+			isa = PBXGroup;
+			children = (
+				D263EA9C2C96306B007894EE /* AuthentificationView.swift */,
+				D2872F252C96DEB500A33D29 /* SignUpWithEmail */,
+				D263EAAC2C96428A007894EE /* SignInWithEmail */,
+			);
+			path = Authentification;
+			sourceTree = "<group>";
+		};
+		D263EAA62C963D55007894EE /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D263EAA72C963D63007894EE /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D263EAAB2C964255007894EE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D263EA992C962FD1007894EE /* AppDelegate.swift */,
+				D263EA5F2C960B92007894EE /* EasyRentApp.swift */,
+				D263EAA42C963AB6007894EE /* RootView.swift */,
+				D2CBB88F2C9E24AB00F2E7E1 /* ViewModel */,
+				D2CBB88E2C9E24A400F2E7E1 /* View */,
+				D2CBB88B2C9E247700F2E7E1 /* Model */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D263EAAC2C96428A007894EE /* SignInWithEmail */ = {
+			isa = PBXGroup;
+			children = (
+				D263EA9E2C963272007894EE /* SignInWithEmailView.swift */,
+			);
+			path = SignInWithEmail;
+			sourceTree = "<group>";
+		};
+		D263EAAD2C964423007894EE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D263EAA22C963565007894EE /* AuthentificationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D263EAAE2C964448007894EE /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D263EA632C960B94007894EE /* Assets.xcassets */,
+				D263EA6D2C960BF8007894EE /* GoogleService-Info.plist */,
+				D26CD6AE2CA0669600520458 /* Localizable.strings */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		D27FF50F2CCBD810001FEB4F /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				D27FF5102CCBD81E001FEB4F /* UserListView.swift */,
+				D27FF5122CCBD861001FEB4F /* UsersViewModel.swift */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		D27FF5162CCC1E4E001FEB4F /* MachineLearningModel */ = {
+			isa = PBXGroup;
+			children = (
+				D27FF5172CCC1E64001FEB4F /* EasyRentMLModel.mlmodel */,
+			);
+			path = MachineLearningModel;
+			sourceTree = "<group>";
+		};
+		D2872F1F2C96CE2B00A33D29 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D2872F202C96CE4100A33D29 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D2872F222C96D1FB00A33D29 /* Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				D2872F232C96D22100A33D29 /* UserManager.swift */,
+				D28666C32C9A127000E70829 /* ItemManager.swift */,
+				D24544DF2C9F5EB900A88DC4 /* RentManager.swift */,
+				D27FF5142CCBE744001FEB4F /* Storage.swift */,
+			);
+			path = Firestore;
+			sourceTree = "<group>";
+		};
+		D2872F252C96DEB500A33D29 /* SignUpWithEmail */ = {
+			isa = PBXGroup;
+			children = (
+				D2872F262C96DF5000A33D29 /* SignUpWithEmailView.swift */,
+			);
+			path = SignUpWithEmail;
+			sourceTree = "<group>";
+		};
+		D2872F2C2C9726B400A33D29 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				D2872F2A2C97263D00A33D29 /* ItemsListView.swift */,
+				D2872F2F2C972D0D00A33D29 /* ItemRow.swift */,
+				D28666BD2C99B57600E70829 /* AddItemFormView.swift */,
+				D28666BF2C99DAE600E70829 /* ItemDetailView.swift */,
+				D22E7E262C9B481B00D71FBB /* ItemRentView.swift */,
+				D26CD6B22CA08D9400520458 /* EditItemView.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		D2CBB88B2C9E247700F2E7E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2872F2D2C9726C300A33D29 /* ItemModel.swift */,
+				D2ADDE452CCE9EEB001FA2ED /* UserModel.swift */,
+				D2ADDE472CCE9EF6001FA2ED /* RentModel.swift */,
+				D2ADDE492CCEB14C001FA2ED /* AuthDataResultModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D2CBB88E2C9E24A400F2E7E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D27FF50F2CCBD810001FEB4F /* UserList */,
+				D263EA9B2C96304E007894EE /* Authentification */,
+				D2872F2C2C9726B400A33D29 /* Items */,
+				D24544E12C9F642F00A88DC4 /* Rents */,
+				D2872F1F2C96CE2B00A33D29 /* Profile */,
+				D263EAA62C963D55007894EE /* Settings */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D2CBB88F2C9E24AB00F2E7E1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D2872F282C96DFDE00A33D29 /* SignUpWithEmailViewModel.swift */,
+				D263EAA02C963287007894EE /* SignInWithEmailViewModel.swift */,
+				D294EB3C2C98CD6C00A7A160 /* ItemsViewModel.swift */,
+				D24544E42C9F655400A88DC4 /* RentsListViewModel.swift */,
+				D263EAA92C963DB6007894EE /* SettingsViewModel.swift */,
+				D2CBB8902C9E28A900F2E7E1 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D263EA5B2C960B92007894EE /* EasyRent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D263EA6A2C960B94007894EE /* Build configuration list for PBXNativeTarget "EasyRent" */;
+			buildPhases = (
+				D263EA582C960B92007894EE /* Sources */,
+				D263EA592C960B92007894EE /* Frameworks */,
+				D263EA5A2C960B92007894EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyRent;
+			packageProductDependencies = (
+				D263EA892C960E2F007894EE /* FirebaseAnalytics */,
+				D263EA8B2C960E2F007894EE /* FirebaseAnalyticsOnDeviceConversion */,
+				D263EA8D2C960E2F007894EE /* FirebaseAnalyticsWithoutAdIdSupport */,
+				D263EA8F2C960E2F007894EE /* FirebaseAuth */,
+				D263EA912C960E2F007894EE /* FirebaseCrashlytics */,
+				D263EA932C960E2F007894EE /* FirebaseDatabase */,
+				D263EA952C960E2F007894EE /* FirebaseFirestore */,
+				D263EA972C960E2F007894EE /* FirebaseStorage */,
+			);
+			productName = EasyRent;
+			productReference = D263EA5C2C960B92007894EE /* EasyRent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D263EA542C960B92007894EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D263EA5B2C960B92007894EE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = D263EA572C960B92007894EE /* Build configuration list for PBXProject "EasyRent" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				uk,
+			);
+			mainGroup = D263EA532C960B92007894EE;
+			packageReferences = (
+				D263EA882C960E2F007894EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = D263EA5D2C960B92007894EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D263EA5B2C960B92007894EE /* EasyRent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D263EA5A2C960B92007894EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D263EA672C960B94007894EE /* Preview Assets.xcassets in Resources */,
+				D26CD6B02CA0669600520458 /* Localizable.strings in Resources */,
+				D263EA642C960B94007894EE /* Assets.xcassets in Resources */,
+				D263EA6E2C960BF8007894EE /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D263EA582C960B92007894EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24544E52C9F655400A88DC4 /* RentsListViewModel.swift in Sources */,
+				D26CD6AD2CA019CF00520458 /* RentRow.swift in Sources */,
+				D2872F2E2C9726C300A33D29 /* ItemModel.swift in Sources */,
+				D2ADDE4A2CCEB14C001FA2ED /* AuthDataResultModel.swift in Sources */,
+				D239E5892CC9A4760059FBFF /* Ext + Image.swift in Sources */,
+				D27FF5182CCC1E64001FEB4F /* EasyRentMLModel.mlmodel in Sources */,
+				D263EA9A2C962FD1007894EE /* AppDelegate.swift in Sources */,
+				D263EA9F2C963272007894EE /* SignInWithEmailView.swift in Sources */,
+				D2ADDE462CCE9EEB001FA2ED /* UserModel.swift in Sources */,
+				D2872F272C96DF5000A33D29 /* SignUpWithEmailView.swift in Sources */,
+				D2ADDE422CCE7E9D001FA2ED /* ItemCategory.swift in Sources */,
+				D294EB3D2C98CD6C00A7A160 /* ItemsViewModel.swift in Sources */,
+				D2872F212C96CE4100A33D29 /* ProfileView.swift in Sources */,
+				D24544E32C9F647900A88DC4 /* RentsListView.swift in Sources */,
+				D28666C42C9A127000E70829 /* ItemManager.swift in Sources */,
+				D2ADDE482CCE9EF6001FA2ED /* RentModel.swift in Sources */,
+				D28666BE2C99B57600E70829 /* AddItemFormView.swift in Sources */,
+				D263EAA32C963565007894EE /* AuthentificationManager.swift in Sources */,
+				D263EAA12C963287007894EE /* SignInWithEmailViewModel.swift in Sources */,
+				D2872F292C96DFDE00A33D29 /* SignUpWithEmailViewModel.swift in Sources */,
+				D28666C02C99DAE600E70829 /* ItemDetailView.swift in Sources */,
+				D2ADDE442CCE7EAB001FA2ED /* SortedStyle.swift in Sources */,
+				D22E7E272C9B481B00D71FBB /* ItemRentView.swift in Sources */,
+				D263EAA82C963D63007894EE /* SettingsView.swift in Sources */,
+				D263EAA52C963AB6007894EE /* RootView.swift in Sources */,
+				D27FF5152CCBE744001FEB4F /* Storage.swift in Sources */,
+				D27FF5132CCBD861001FEB4F /* UsersViewModel.swift in Sources */,
+				D2872F2B2C97263D00A33D29 /* ItemsListView.swift in Sources */,
+				D263EA602C960B92007894EE /* EasyRentApp.swift in Sources */,
+				D263EAAA2C963DB6007894EE /* SettingsViewModel.swift in Sources */,
+				D2CBB8912C9E28A900F2E7E1 /* ProfileViewModel.swift in Sources */,
+				D24544E02C9F5EB900A88DC4 /* RentManager.swift in Sources */,
+				D2872F242C96D22100A33D29 /* UserManager.swift in Sources */,
+				D263EA9D2C96306B007894EE /* AuthentificationView.swift in Sources */,
+				D2872F302C972D0D00A33D29 /* ItemRow.swift in Sources */,
+				D27FF5112CCBD81E001FEB4F /* UserListView.swift in Sources */,
+				D23C63792CCD9F2E0082985F /* EasyRentError.swift in Sources */,
+				D26CD6B32CA08D9400520458 /* EditItemView.swift in Sources */,
+				D27FF51A2CCC259A001FEB4F /* Ext + UIImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D26CD6AE2CA0669600520458 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D26CD6AF2CA0669600520458 /* en */,
+				D26CD6B12CA066E500520458 /* uk */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D263EA682C960B94007894EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D263EA692C960B94007894EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D263EA6B2C960B94007894EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EasyRent/Preview Content\"";
+				DEVELOPMENT_TEAM = LZRJJDWKFS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.romanhural.EasyRent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D263EA6C2C960B94007894EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EasyRent/Preview Content\"";
+				DEVELOPMENT_TEAM = LZRJJDWKFS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.romanhural.EasyRent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D263EA572C960B92007894EE /* Build configuration list for PBXProject "EasyRent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D263EA682C960B94007894EE /* Debug */,
+				D263EA692C960B94007894EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D263EA6A2C960B94007894EE /* Build configuration list for PBXNativeTarget "EasyRent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D263EA6B2C960B94007894EE /* Debug */,
+				D263EA6C2C960B94007894EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D263EA882C960E2F007894EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D263EA892C960E2F007894EE /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D263EA882C960E2F007894EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D263EA8B2C960E2F007894EE /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D263EA882C960E2F007894EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		D263EA8D2C960E2F007894EE /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D263EA882C960E2F007894EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		D263EA8F2C960E2F007894EE /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D263EA882C960E2F007894EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D263EA912C960E2F007894EE /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D263EA882C960E2F007894EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		D263EA932C960E2F007894EE /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D263EA882C960E2F007894EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		D263EA952C960E2F007894EE /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D263EA882C960E2F007894EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		D263EA972C960E2F007894EE /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D263EA882C960E2F007894EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D263EA542C960B92007894EE /* Project object */;
+}

@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  EasyRent
+
+  Created by Roman Hural on 22.09.2024.
+  
+*/
+
+//"Items" = "Items";
+//"Rents" = "Rents";
+//"Profile" = "Profile";
+//"Sign Up With Email" = "Sign Up With Email";
+//"Sign In With Email" = "Sign In With Email";
+//"Already have an account?" = "Already have an account?";
+//"Sign In" = "Sign In";
+//"Sign Up" = "Sign Up";
+//"First Name" = "First Name";
+//"Last Name" = "Last Name";
+//"Email" = "Email";
+//"Password" = "Password";
+//"Search Item..." = "Search Item...";
+//"Avalaible" = "Avalaible";
+//"Rented" = "Rented";
+//"Add Item" = "Add Item";
+//"UAH / Hour" = "UAH / Hour";
+//"Item Name" = "Item Name";
+//"Item Price Per Hour" = "Item Price Per Hour";
+//"Create New Item" = "Create New Item";
+//"Register New Item" = "Register New Item";
+//"Cancel" = "Cancel";
+//"Name:" = "Name:";
+//"Price Per Hour:" = "Price Per Hour:";
+//"UAH" = "UAH";
+//"Item Info" = "Item Info";
+//"Registration:" = "Registration:";
+//"State:" = "State:";
+//"Make A Rent" = "Make A Rent";
+//"Rentant Information" = "Rentant Information";
+//"Rent Date:" = "Rent Date:";
+//"Return Date:" = "Return Date:";
+//"In Rent:" = "In Rent:";
+//"hours" = "hours";
+//"Total Price:" = "Total Price:";
+//"Returned From Rent" = "Returned From Rent";
+//"Details" = "Details";
+//"Rented Item" = "Rented Item";
+//"Hours In Rent:" = "Hours In Rent:";
+//"Enter Number" = "Enter Number";
+//"Total Rent Price:" = "Total Rent Price:";
+//"Rentant Info" = "Rentant Info";
+//"First Name:" = "First Name:";
+//"Last Name:" = "Last Name:";
+//"Email:" = "Email:";
+//"Confirm Rent" = "Confirm Rent";
+//"Rent Details" = "Rent Details";
+//"Rents" = "Rents";
+//"Enter Rent ID..." = "Enter Rent ID...";
+//"In Use" = "In Use";
+//"Finished" = "Finished";

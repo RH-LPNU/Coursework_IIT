@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  EasyRent
+
+  Created by Roman Hural on 22.09.2024.
+  
+*/
+
+//"Items" = "Товари";
+//"Rents" = "У Прокаті";
+//"Profile" = "Профіль";
+//"Sign Up With Email" = "Зареєструватись з поштою";
+//"Sign In With Email" = "Увійти через пошту";
+//"Already have an account?" = "Вже маєте акаунт?";
+//"Sign In" = "Увійти";
+//"Sign Up" = "Зареєструватись";
+//"First Name" = "Ім'я";
+//"Last Name" = "Прізвище";
+//"Email" = "Пошта";
+//"Password" = "Пароль";
+//"Search Item..." = "Пошук Товару...";
+//"Avalaible" = "Доступно";
+//"Rented" = "У Прокаті";
+//"Add Item" = "Додати Товар";
+//"UAH / Hour" = "ГРН / Година";
+//"Item Name" = "Назва Товару";
+//"Item Price Per Hour" = "Ціна Товару За Годину";
+//"Create New Item" = "Створити Новий Товар";
+//"Register New Item" = "Зареєструвати Новий Товар";
+//"Cancel" = "Скасувати";
+//"Name:" = "Назва:";
+//"Price Per Hour:" = "Ціна За Годину:";
+//"UAH" = "ГРН";
+//"Item Info" = "Інформація Про Товар";
+//"Registration:" = "Зареєстровано:";
+//"State:" = "Стан:";
+//"Make A Rent" = "Взяти На Прокат";
+//"Rentant Information" = "Інформація Про Орендаря";
+//"Rent Date:" = "Дата Прокату:";
+//"Return Date:" = "Дата Повернення:";
+//"In Rent:" = "В Оренді:";
+//"hours" = "годин";
+//"Total Price:" = "Ціна Прокату:";
+//"Returned From Rent" = "Повернуто З Оренди";
+//"Details" = "Деталі";
+//"Rented Item" = "Товар У Прокаті";
+//"Hours In Rent:" = "Годин В Прокаті";
+//"Enter Number" = "Введіть Число";
+//"Total Rent Price:" = "Ціна Оренди:";
+//"Rentant Info" = "Інформація Про Орендаря";
+//"First Name:" = "Ім'я:";
+//"Last Name:" = "Прізвище:";
+//"Email:" = "Пошта:";
+//"Confirm Rent" = "Підтвердити Прокат";
+//"Rent Details" = "Деталі Прокату";
+//"Rents" = "У Прокаті";
+//"Enter Rent ID..." = "Введіть ID Прокату...";
+//"In Use" = "У Використанні";
+//"Finished" = "Завершено";
